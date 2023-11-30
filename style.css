@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    width: 100%;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/CarNation/images/logo.jpg); */
+    background-size: cover;
+    background-position: center;
+}
+header{
+    /* position: sticky;
+    top: 0;
+    left: 0;
+    right: 0; */
+    width: 100% ;
+    padding: 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+} */
+.car-logo{
+    height: auto;
+    width: 100px;
+    object-fit: cover;
+}
+.navigation a {
+    text-decoration: none;
+    outline: none;
+    color: orange;
+    font-size: 1.7rem;
+    font-weight: 550;
+    margin: 0 11px;
+}
+.footer{
+    margin-top: auto;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: .7rem auto;
+}
+.socials{
+    font-size: 1.7rem;
+}
