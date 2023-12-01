@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     font-family: 'Courier New', Courier, monospace;
 }
 .container{
@@ -10,16 +9,16 @@
     flex-direction: column;
     min-height: 100dvh;
     width: 100%;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/CarNation/images/logo.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/CarNation/images/logo.jpg);
     background-size: cover;
     background-position: center;
 }
 header{
-    /* position: sticky;
+    position: sticky;
     top: 0;
     left: 0;
-    right: 0; */
+    right: 0;
     width: 100% ;
     padding: 10px;
     background: transparent;
@@ -27,13 +26,6 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-/* .logo{
-    font-size: 30px;
-    font-weight: 700;
-    color: #000000;
-    text-decoration: none;
-    text-transform: uppercase;
-} */
 .car-logo{
     height: auto;
     width: 100px;
@@ -47,13 +39,16 @@ header{
     font-weight: 550;
     margin: 0 11px;
 }
+.socials{
+    font-size: 1.7rem;
+}
+.homes{
+    color: whitesmoke;
+}
 .footer{
     margin-top: auto;
     color: whitesmoke;
     text-align: center;
     font-size: 1.2rem;
     padding: .7rem auto;
-}
-.socials{
-    font-size: 1.7rem;
 }
