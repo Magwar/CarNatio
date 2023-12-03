@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>SignUp & Login</title>
 </head>
 <body>
-    <form action=""></form>
+    <form action="" class="login-form">
+        <div class="login">
+            <h1>Login</h1>
+            <input type="text" placeholder="Username/E-mail" class="input-area">
+            <br>
+            <input type="password" placeholder="Password" class="input-area">
+            <br>
+            <!-- <input type="checkbox">Remember Me -->
+            <button onclick="login()" class="login-btn">login</button>
+            <div class="signUp-link">
+                <a href="#" class="forgot pass">Forgot Password?</a>
+                <a href="#" class="pass">New Here? SignUp</a>
+            </div>
+        </div>
+    </form>
 </body>
 </html>
