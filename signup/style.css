@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    max-width: 100%;
+    height: 100dvh;
+    background: linear-gradient(45deg, rgba(227, 206, 206, 0.4),
+    rgba(0, 0, 0, 0.4)), url(/CarNation/images/logo.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.signUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: antiquewhite;
+    width: 460px;
+    height: 560px;
+    position: relative;
+    /* margin: 6% auto; */
+    padding: 0px 15px;
+    border-radius: 30px;
+    /* background: linear-gradient(rgba(0,0,0,0.8),
+    rgba(0,0,0,0.45)), url(/CarNation/images/park.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: -7px -7px 15px  rgb(255, 188, 107, 0.5); */
+
+/* style 2*********************************************************** */
+    margin: 6% 20%;
+    background: transparent;
+    box-shadow: 7px 7px 15px  rgb(245, 245, 245, 0.5);
+}
+.signUp h1{
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: orange;
+    margin: 20px auto;
+}
+.input-area{
+    /* width: 340px; */
+    padding: 10px 10px;
+    border-radius: 30px;
+    outline: none;
+    border: 3px solid whitesmoke;
+    font-size: 1.1rem;
+    letter-spacing: .7px;
+    font-family: monospace;
+
+/* style 2******************************************* */
+    background: transparent;
+    color: antiquewhite;
+    width: 260px;
+    transition: all .45s;
+}
+/* style 2******************************************* */
+.input-area:focus{
+    width: 300px;
+    border: 3px solid orange;
+}
+.signUp-btn{
+    margin-top: 6px;
+    width: 140px;
+    padding: 7px 10px;
+    border-radius: 20px;
+    outline: none;
+    /* border: 3px solid rgb(245, 245, 245); */
+    font-size: 1.3rem;
+    letter-spacing: .7px;
+    font-family: monospace;
+    cursor: pointer;
+    /* background-image: linear-gradient(to right bottom,
+    #ff9b30 ,#febc6e ); */
+
+/* style 2********************************************** */
+    background: transparent;
+    color: orange;
+    border: 3px solid white;
+    transition: all .4s;
+}
+.signUp-btn:hover{
+    box-shadow: 10px 10px 10px #febc6e;
+
+/* style 2************************************************ */
+    background-image: linear-gradient(to right bottom,
+    antiquewhite ,white );
+    color: orange;
+    border: 3px solid rgb(255, 166, 0);
+}
+.signUp-link{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.signUp-link a{
+    color: orange;
+    text-decoration: none;
+    margin-top: 30px;
+    outline: none;
+    font: 1.12em sans-serif;
+}
+.pass:hover{
+    text-decoration: underline;
+}
