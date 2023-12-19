@@ -15,6 +15,7 @@
     background-position: center;
 }
 header{
+    /* Check on the position element to understand what fits best even in scrolling */
     position: sticky;
     top: 0;
     left: 0;
@@ -42,9 +43,17 @@ header{
 .socials{
     font-size: 1.7rem;
 }
+.socials a{
+    color: whitesmoke;
+}
 .homes{
     color: whitesmoke;
 }
+
+
+
+
+
 .footer{
     margin-top: auto;
     color: whitesmoke;
