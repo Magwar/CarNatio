@@ -37,7 +37,7 @@ body{
     box-shadow: 7px 7px 15px  rgb(245, 245, 245, 0.5);
 }
 .signUp h1{
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     letter-spacing: 1.5px;
     color: orange;
@@ -85,7 +85,7 @@ body{
     transition: all .4s;
 }
 .signUp-btn:hover{
-    box-shadow: 10px 10px 10px #febc6e;
+    box-shadow: 5px 5px 5px #febc6e;
 
 /* style 2************************************************ */
     background-image: linear-gradient(to right bottom,
@@ -99,11 +99,12 @@ body{
     justify-content: flex-end;
 }
 .signUp-link a{
-    color: orange;
+    /* color: orange; */
+    color: whitesmoke;
     text-decoration: none;
     margin-top: 30px;
     outline: none;
-    font: 1.12em sans-serif;
+    font: 1.3em sans-serif;
 }
 .pass:hover{
     text-decoration: underline;
