@@ -5,16 +5,53 @@
     font-family: 'Courier New', Courier, monospace;
 }
 body{
+    display: flex;
+    flex-direction: column;
     max-width: 100%;
     height: 100dvh;
-    background: linear-gradient(45deg, rgba(227, 206, 206, 0.4),
-    rgba(0, 0, 0, 0.4)), url(/CarNation/images/logo.jpg);
+    /* background: linear-gradient(45deg, rgba(227, 206, 206, 0.4),
+    rgba(0, 0, 0, 0.4)), url(/CarNation/images/logo.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)),
+    url(/CarNation/images/logo.jpg);
     background-size: cover;
     background-position: center;
-    overflow: hidden;
+    /*overflow: hidden;*/ /*Check if this is necessary */
 }
-
+.login-header{
+     /* Check on the position element to understand what fits best even in scrolling */
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100% ;
+    padding: 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-car-logo{
+    height: auto;
+    width: 100px;
+    object-fit: cover;
+}
+.login-navigation a{
+    text-decoration: none;
+    outline: none;
+    color: orange;
+    font-size: 1.7rem;
+    font-weight: 550;
+    margin: 0 11px;
+}
+.socials{
+    font-size: 1.7rem;
+}
+.socials a{
+    color: whitesmoke;
+}
 .login{
+/* Check why On pressing the login, the page shifts or grows hiding the footer     */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,19 +60,19 @@ body{
     width: 460px;
     height: 560px;
     position: relative;
-    /* margin: 6% auto; */
+    /* margin: 6% auto; ---------------*/
     padding: 0px 15px;
     border-radius: 30px;
     /* background: linear-gradient(rgba(0,0,0,0.8),
     rgba(0,0,0,0.45)), url(/CarNation/images/park.jpg);
     background-size: cover;
     background-position: center;
-    box-shadow: -7px -7px 15px  rgb(255, 188, 107, 0.5); */
+    box-shadow: -7px -7px 15px  rgb(255, 188, 107, 0.5); ------------*/
 
 /* style 2*********************************************************** */
     margin: 6% 20%;
     background: transparent;
-    box-shadow: -7px -7px 15px  rgb(255, 188, 107, 0.5);
+    box-shadow: -7px -7px 25px  rgb(255, 188, 107, 0.5);
 }
 .login h1{
     font-size: 4rem;
@@ -108,4 +145,13 @@ body{
 }
 .pass:hover{
     text-decoration: underline;
+}
+
+
+.footer{
+    margin-top: auto;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: .7rem auto;
 }
