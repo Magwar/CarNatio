@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <title>Login</title>
 </head>
 <body>
+    <header class="login-header">
+        <img src="/CarNation/images/logo.jpg" alt="CarNation logo" class="login-car-logo">
+        <nav class="login-navigation">
+            <a href="/CarNation/index.html">Home</a>
+            <a href="#">Events</a>
+                <!-- events with a calendar selectable for weekly,monthly and yearly events with capability to send reminders on phone -->
+            <a href="#">DataBase</a>
+                <!-- database for known car groups with events on the events list and sticker registration services -->
+                <!-- <a href="#">Contact</a> -->
+            <a href="#">About</a>
+            <!-- <a href="#">Register</a> No need once we send the client over to login page -->
+        </nav>
+        <section class="socials">
+            <a href="#"><i class='bx bxl-instagram' title="Visit Instagram"></i></a>
+            <a href="#"><i class='bx bxl-facebook' title="Visit facebook"></i></a>
+            <a href="#"><i class='bx bxl-twitter' title="Visit twitter"></i></a>
+        </section>
+    </header>
     <form action="" class="login-form">
         <div class="login">
             <h1>Login</h1>
@@ -14,7 +33,7 @@
             <br>
             <input type="password" placeholder="Password" class="input-area">
             <br>
-            <!-- <input type="checkbox">Remember Me -->
+            <!-- <input type="checkbox" class="checkbox">Remember Me -->
             <button onclick="login()" class="login-btn">login</button>
             <div class="signUp-link">
                 <a href="#" class="forgot pass">Forgot Password?</a>
@@ -22,5 +41,8 @@
             </div>
         </div>
     </form>
+    <footer class="footer">
+        &copy; 2023 CarNation | All Rights Reserved
+    </footer>
 </body>
 </html>
