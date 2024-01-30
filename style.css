@@ -9,13 +9,15 @@
     flex-direction: column;
     min-height: 100dvh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    background: linear-gradient(rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)),
     url(/CarNation/images/logo.jpg);
     background-size: cover;
     background-position: center;
+    overflow: hidden; /*-------------Check if this is necessary */
 }
 header{
-    /* Check on the position element to understand what fits best even in scrolling */
+    /* -----------------------------Check on the position element to understand what fits best even in scrolling */
     position: sticky;
     top: 0;
     left: 0;
