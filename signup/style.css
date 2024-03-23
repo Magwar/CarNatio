@@ -16,6 +16,7 @@ body{
     background-size: cover;
     background-position: center;
     /* overflow: hidden; */  /* Check on this why it does hide the footer*/
+    transition: background 0.2s ease-in-out;
 }
 .signUp-header{
  /* Check on the position element to understand what fits best even in scrolling */
